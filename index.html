@@ -4,9 +4,46 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- GoogleFontの設定 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- StyleSheetの設定 -->
         <link rel="stylesheet" href="./assets/sanitize.css" />
-        <link rel="stylesheet" href="./assets/tab.css" />
+        <link rel="stylesheet" href="./assets/style.css" />
         <title>Document</title>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <h1></h1>
+        </header>
+        <main class="tab" id="js-tab">
+            <div class="tab-nav">
+                <a href="" class="tab-nav-item is-active" data-nav="0"
+                    >ヘレボ</a
+                >
+                <a href="" class="tab-nav-item" data-nav="1">バ　ラ</a>
+                <a href="" class="tab-nav-item" data-nav="2">クレマ</a>
+                <a href="" class="tab-nav-item" data-nav="3">その他</a>
+            </div>
+            <div class="tab-contents">
+                <div class="tab-contents-item" data-content="0">
+                    タブ_ヘレボ
+                </div>
+                <div class="tab-contents-item" data-content="1">
+                    タブ_バ　ラ
+                </div>
+                <div class="tab-contents-item" data-content="2">
+                    タブ_クレマ
+                </div>
+                <div class="tab-contents-item" data-content="3">
+                    タブ_その他
+                </div>
+            </div>
+        </main>
+        <script src="./assets/app.js"></script>
+    </body>
 </html>
