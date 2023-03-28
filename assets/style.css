@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Sawarabi Mincho', 'Zen Kaku Gothic Antique', 'Helvetica',
+        'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic',
+        'Meiryo', sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.tab {
+    width: 95%;
+    margin: 0 auto;
+}
+.tab-nav {
+    display: flex;
+}
+.tab-nav-item {
+    margin-right: 2px;
+    background: #e88f8f;
+    color: rgb(80, 44, 80);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+}
+.tab-nav-item.is-active {
+    background: #890808;
+    color: #fff;
+}
+.tab-contents {
+    background: bisque;
+    color: rgb(80, 44, 80);
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.tab-contents-item {
+    display: none;
+}
