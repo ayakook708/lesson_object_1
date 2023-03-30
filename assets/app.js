@@ -20,12 +20,11 @@
         const navNumber = Number(e.target.dataset.nav);
         e.target.classList.add('is-active');
         $content[navNumber].style.display = 'block';
-        // console.log(e);
+        console.log(e);
     };
-
-    $dom.addEventListener('click', (e) => {
-        clickHandler(e);
-    });
-
-    // console.log($content);
+    for (let index = 0; index < $nav.length; index++) {
+        $nav[index].addEventListener('click', (e) => {
+            clickHandler(e);
+        });
+    }
 })();
