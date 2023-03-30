@@ -10,7 +10,7 @@ body {
 }
 
 .tab {
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
 }
 .tab-nav {
@@ -29,11 +29,32 @@ body {
     color: #fff;
 }
 .tab-contents {
-    background: bisque;
+    background-color: #fff;
     color: rgb(80, 44, 80);
     border: 1px solid #ccc;
     padding: 20px;
 }
 .tab-contents-item {
     display: none;
+}
+.accordion {
+    width: 800px;
+    margin: 0 auto;
+}
+.accordion-trigger {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    background: bisque;
+    border: 1px solid #fff;
+}
+.accordion-contents {
+    display: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #e7f5f9;
+    border: 1px solid #ccc;
+}
+.accordion-contents > div {
+    margin: 0 10px;
 }
